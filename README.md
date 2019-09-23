@@ -1,6 +1,6 @@
 # Adwaita theme for Albert launcher
 
-
+![Adwaita theme for Albert launcher](https://raw.githubusercontent.com/petrstepanov/albert-theme-adwaita/master/figma-render.png)
 
 1. Copy `Adwaita.qss` to ~/.local/share/albert/org.albert.frontend.widgetboxmodel/themes/
 2. Select "Adwaita" theme in Albert's Settings.

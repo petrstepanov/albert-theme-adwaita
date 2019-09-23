@@ -1,0 +1,105 @@
+/*
+ * This theme was made using Albert theme creator (https://albertlauncher.github.io/docs/theming/themecreator/).
+ *
+ * Check http://doc.qt.io/qt-5/stylesheet-syntax.html especially the subtopics:
+ * The Style Sheet Syntax (http://doc.qt.io/qt-5/stylesheet-syntax.html)
+ * Qt Style Sheets Reference (http://doc.qt.io/qt-5/stylesheet-reference.html)
+ */
+* {
+  border: 0px;
+  color: #212529;
+}
+
+#frame {
+  border-radius: 8px;
+  background-color: #F5F5F5;
+  min-width: 640px;
+  max-width: 640px;
+}
+
+#frameTop {
+  background-color: green;
+}
+
+#inputLine {
+  padding: 2px;
+  border-radius: 8px;
+  font-size: 32px;
+  height: 60px;
+  selection-color: #212529;
+  selection-background-color: #c3eaff;
+  color: #212529;
+  background-color: transparent;
+}
+
+#settingsButton {
+  color: #4c4c4c;
+  background-color: #F5F5F5;
+  padding: 6px;
+  margin: 6px 6px 0px 0px;
+  min-width:14px;
+  min-height:14px;
+  max-width:14px;
+  max-height:14px;
+}
+
+
+/********** ListViews **********/
+
+QListView {
+  margin-top: 0px;
+  selection-color: #212529;
+}
+
+/********** scrollBar **********/
+QListView QScrollBar:vertical  {
+  width: 6px;
+  background: transparent;
+}
+
+QListView QScrollBar::handle:vertical  {
+  background: #c0c0c0;
+  min-height: 24px;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+  border: 0px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+/********** actionList **********/
+QListView#actionList {
+  font-size: 18px;
+}
+
+QListView#actionList::item{
+  height: 44px;
+
+}
+
+QListView#actionList::item::selected{
+  background: #c3eaff;
+}
+
+/********** resultsList **********/
+QListView#resultsList {
+  border-top: 1px solid #C5C5C5;
+  icon-size: 48px;
+  font-size: 18px;
+}
+
+QListView#resultsList::item {
+  height: 64px;
+}
+
+QListView#resultsList::item::selected {
+  background: #c3eaff;
+}
+
+#subTextId {
+padding: 10px;
+}

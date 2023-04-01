@@ -12,7 +12,7 @@
 
 #frame {
   border-radius: 8px;
-  background-color: #333333;
+  background-color: #2D2D2D;
   min-width: 640px;
   max-width: 640px;
 }
